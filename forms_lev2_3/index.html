@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend> 
+            <div>
+            <label for="Name">Name</label>
+            <input placeholder="Name" id="Name" type="Name">
+            </div>
+            <div>
+            <label for="Surname">Surname</label>
+            <input placeholder="Surname" id="Surname" type="Surname">
+            </div>
+            <div>
+            <label for="Email">Email</label>
+            <input placeholder="Email" id="Email" type="Email">
+            </div>
+            <div>
+                <label for="Gender">Gender</label>
+                <input type="radio" id="html" name="lang" value="Male"/>
+                <label for="Male">Male</label>
+                <input type="radio" id="css" name="lang" value="Female"/>
+                <label for="Female">Female</label>
+            </div>
+            <div>
+            <label for="Picture">Picture</label>
+            <input type="file" id="file">
+            </div>
+            <div>
+            <label for="countrys">Country</label>
+            <select id="countrys">
+                <option value="germany">Germany</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+            </select>
+            </div>
+            <div>
+            <label for="lang">Preferred Languages</label>
+            <select multiple="multiple">  -> Für mehrere elemente
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+            </select>
+            </div>
+            <div class="activity">
+            <label for="Activity">Fields of activity</label>
+            <div>
+            <label for="IT">IT</label>
+            <input type="checkbox" id="checkbox">
+            </div>
+            <div>
+            <label for="Design">Design</label>
+            <input type="checkbox" id="checkbox">
+            </div>
+            <div>
+            <label for="Other">Other</label>
+            <input type="checkbox" id="checkbox">
+            </div>
+            <div class="button">
+                <input type="button" value="Send"/>
+                <input type="button" value="Cancel"/>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

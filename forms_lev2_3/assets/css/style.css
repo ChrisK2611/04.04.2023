@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: block;
+    /* min-width: 10rem; */
+    padding: 16px;
+    margin: 25px 25px;
+}
+
+
+div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+
+div label {
+    min-width: 10rem;
+}
+
+div input { 
+   padding-left: 5px; 
+   
+}   
